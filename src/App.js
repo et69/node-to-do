@@ -9,6 +9,7 @@ const App = () => {
   return (
     <div className="todo-app">
       <Title />
+	  <h1> My Todo</h1>
       <InputForm />
       <TodoList />
       <Notifications />
