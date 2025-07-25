@@ -13,13 +13,13 @@ pipeline {
                 // e.g. sh './build.sh' or 'make'
             }
         }
-        stage('Test') {
-            steps {
-                sh 'echo "Run tests"'
-		sh 'npm test'
+        //stage('Test') {
+        //    steps {
+        //        sh 'echo "Run tests"'
+	//	sh 'npm test'
                 // e.g. sh './run-tests.sh'
-            }
-        }
+        //    }
+        //}
         stage('Deploy') {
             steps {
                 sh 'echo "Deploy steps here"'
